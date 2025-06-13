@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "cli-demo": "bun run cli/cli-demo.ts"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/bun": "latest",
@@ -12,9 +15,11 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@e2b/code-interpreter": "^1.5.0",
     "@hono/node-server": "^1.14.3",
     "@supabase/supabase-js": "^2.49.8",
     "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "hono": "^4.7.10",
     "zod": "^3.25.28"
   }
